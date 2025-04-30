@@ -1,0 +1,83 @@
+.aboutPage {
+    font-family: 'Tiro Devanagari Hindi', sans-serif;
+  }
+  
+  .section1 {
+    background-color: #0E3559; /* Dark Blue */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .aboutImage {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .section2 {
+    background-color: #E7EBEE; /* Light Blue */
+    padding: 40px 0;
+  }
+  
+/* About.module.css (or wherever your section2 styles live) */
+
+.screenshotsContainer {
+    display: flex;
+    flex-direction: column;   /* stack items vertically */
+    align-items: center;      /* center them horizontally */
+    gap: 2rem;                /* space between the two images */
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  .screenshotImage {
+    width: 100%;
+    max-width: 1000px;         /* adjust to taste */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .screenshotImage2 {
+    width: 100%;
+    max-width: 800px;         /* same or different max-width, up to you */
+    height: auto;
+    border-radius: 8px;
+    /* margin-top handled by gap on container */
+  }
+  
+  .section3 {
+    padding: 40px 0;
+    text-align: center;
+    color: #0E3559;
+  }
+  
+  .sectionHeading {
+    font-size: 2rem;
+    color: #0E3559;
+    margin-bottom: 20px;
+  }
+  
+  .smallText {
+    font-size: 1.1rem;
+    color: #0E3559;
+    margin-bottom: 20px;
+  }
+  
+  .faqLink {
+    font-size: 1.2rem;
+    color: #0E3559;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #0E3559;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .faqLink:hover {
+    background-color: #0E3559;
+    color: #FAF5ED;
+  }
+  

@@ -1,0 +1,25 @@
+.faqHeadingSection {
+  background-color: #FAF5ED; /* Beige */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faqHeading {
+  color: #0E3559; /* Dark blue text */
+  font-family: "Tiro Devanagari Hindi", serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.screenshotSection {
+  background-color: #E7EBEE; /* Light blue */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faqScreenshot {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  
+}
